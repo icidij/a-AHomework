@@ -69,9 +69,10 @@ dir_in_arr
 end
 
 
-def constant_dance
 
+def constant_dance(direction, new_tiles_data_structure)
 
+new_tiles_data_structure.index(direction)
 
 
 
